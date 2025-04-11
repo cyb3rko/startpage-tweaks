@@ -33,19 +33,6 @@ function enhance() {
 	osmLink.appendChild(osmaps);
     dropdownDisplay.appendChild(osmLink);
 
-
-    // Add website-icons
-    let resultList = document.querySelectorAll('[class~="upper"]');
-
-    for (let link of resultList) {
-        let searchResultLink = new URL(link.lastChild.href);
-        let faviconImg = document.createElement("img");
-        faviconImg.style.height = "18px";
-        faviconImg.src = "https://icon.horse/icon/" + searchResultLink.hostname;
-        link.prepend(faviconImg);
-        link.append(link.children[1]); //move private browsing to the right
-        link.children[1].style.marginLeft = "0.5rem"; // fix spacing
-    }
 }
 var intervalId = window.setInterval(function(){
   if(document.querySelectorAll('[src*="icon.horse"]').length === 0) {
