@@ -1,20 +1,15 @@
 {
-
-  "manifest_version": 2,
-  "name": "Startpage-enhancer",
+  "manifest_version": 3,
+  "name": "Startpage Tweaks",
   "version": "0.3.7",
-
   "description": "Make Startpage more awesome. Currently it supports adding the search-queue to the title of the tab and add Maps-Links",
-
   "icons": {
     "48": "icons/icon.png"
   },
-
   "content_scripts": [
     {
-      "matches": ["*://*.startpage.com/*"],
+      "matches": ["https://*.startpage.com/*"],
       "js": ["enhance.js"]
     }
   ]
-
 }
