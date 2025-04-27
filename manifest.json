@@ -8,7 +8,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.startpage.com/*"],
+      "matches": ["https://*.startpage.com/sp/search*", "https://*.startpage.com/do/dsearch*"],
       "js": ["enhance.js"]
     }
   ]
