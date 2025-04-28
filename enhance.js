@@ -77,7 +77,7 @@ function addOsmLink(searchTerm) {
   const osmaps = dropdownDisplay.childNodes[2].cloneNode(true);
 
   osmaps.querySelector("span").textContent = "OpenStreetMap";
-  osmaps.querySelector("img").src = "https://icon.horse/icon/openstreetmap.com";
+  osmaps.querySelector("img").src = "https://favicone.com/openstreetmap.com";
   osmaps.onclick = function() { window.open("https://www.openstreetmap.org/search?query=" + searchTerm, '_blank'); };
   dropdownDisplay.appendChild(osmaps);
 }
@@ -88,7 +88,7 @@ function addOsmLink(searchTerm) {
 
   if (searchTerm !== undefined && searchTerm !== "") {
     window.setInterval(function() {
-      if (document.querySelectorAll("[src*='icon.horse']").length === 0) {
+      if (document.querySelectorAll("[src*='favicone']").length === 0) {
         enhanceDelayed(searchTerm);
       }
     }, 500);

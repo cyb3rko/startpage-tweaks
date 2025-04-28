@@ -1,27 +1,23 @@
-# startpage_enhancer
-Firefox addon to enhance Startpage.com
-Find the published addon at https://addons.mozilla.org/de/firefox/addon/startpage-enhancer/
+# Startpage Tweaks 🔧
 
-# Current features (Feature requests always welcome):
-- Add search-term to the tab title
-- Add Google Maps & OpenStreetMap links to navbar
-- Show Favicon of search-results
+Firefox addon to tweak Startpage.com (compatible with Android)
 
-# Install as userscript
-Use this as a template and copy the contents of enhance.js into the function
-```
-// ==UserScript==
-// @name         Startpage Enhancer
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  enhance startpage
-// @author       You
-// @match        *://*.startpage.com/*
-// @icon         https://icon.horse/icon/startpage.com
-// @grant        none
-// ==/UserScript==
+## Features (requests always welcome)
 
-(function() {
-    //insert enhance.js here
-})();
-```
+- Add search term to the tab title
+- Add OpenStreetMap link to navbar
+- Colorize ad results to differentiate them from normal results
+
+## Tweaked pages
+
+Currently the following pages are tweaked:
+- https://\*.startpage.com/sp/search\*
+- https://\*.startpage.com/do/search\*
+- https://\*.startpage.com/do/dsearch\*
+
+
+## License
+
+    This Source Code Form is subject to the terms of the Mozilla Public
+    License, v. 2.0. If a copy of the MPL was not distributed with this
+    file, You can obtain one at https://mozilla.org/MPL/2.0/.
