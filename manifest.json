@@ -6,6 +6,11 @@
   "icons": {
     "48": "icons/icon.png"
   },
+  "browser_specific_settings": {
+  "gecko": {
+      "id": "startpage-tweaks@cyb3rko.de"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["https://*.startpage.com/sp/search*", "https://*.startpage.com/do/dsearch*"],
