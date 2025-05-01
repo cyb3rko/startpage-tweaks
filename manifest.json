@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Startpage Tweaks",
-  "version": "0.3.7",
+  "version": "1.0.0",
   "description": "Make Startpage more awesome.",
   "icons": {
     "48": "icons/icon.png"
