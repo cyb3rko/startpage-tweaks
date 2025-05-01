@@ -40,11 +40,18 @@ function colorizeAds() {
   }
   color = `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
 
-  const ads = document.getElementsByClassName("right-side-attribution-container")
-  console.log(`Found ${ads.length} ads to colorize.`);
-  for (let i = 0; i < ads.length; i++) {
-    ads[i].parentNode.parentNode.style.background = color;
+  let count = 0;
+  const resultAds = document.getElementsByClassName("right-side-attribution-container")
+  count += resultAds.length;
+  for (let i = 0; i < resultAds.length; i++) {
+    resultAds[i].style.background = color;
   }
+  const bottomAdDiv = document.querySelector("section[id='main']").querySelector(":scope div[style*='margin-bottom']");
+  if (bottomAdDiv) {
+    bottomAdDiv.style.background = color;
+    count += bottomAdDiv.childElementCount;
+  }
+  console.log(`Found ${count} ads to colorize.`);
 }
 
 function setTitle(fallback) {
