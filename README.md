@@ -1,5 +1,10 @@
 # Startpage Tweaks 🔧
 
+[![Mozilla Add-on Version](https://proxy.cyb3rko.de/shields/amo/v/startpage-tweaks?logo=firefox&label=Firefox%20Addon&color=cc3d00)](https://addons.mozilla.org/en-US/firefox/addon/startpage-tweaks)
+[![Mozilla Add-on Downloads](https://proxy.cyb3rko.de/shields/amo/dw/startpage-tweaks?logo=firefox&label=Downloads&color=cc3d00)](https://addons.mozilla.org/en-US/firefox/addon/startpage-tweaks)
+[![Mozilla Add-on Users](https://proxy.cyb3rko.de/shields/amo/users/startpage-tweaks?logo=firefox&label=Users&color=cc3d00)](https://addons.mozilla.org/en-US/firefox/addon/startpage-tweaks)
+[![Mozilla Add-on Rating](https://proxy.cyb3rko.de/shields/amo/stars/startpage-tweaks?logo=firefox&label=Rating&color=cc3d00)](https://addons.mozilla.org/en-US/firefox/addon/startpage-tweaks)
+
 Firefox addon to tweak Startpage.com (compatible with Android)
 
 ## Features (requests always welcome)
